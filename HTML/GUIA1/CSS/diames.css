@@ -1,0 +1,27 @@
+.back-button {
+    background-color: rgba(205,125,125,1); /* #0960C9 */
+    color: #ccc;
+    display: block;
+    font-size: 1.2em;
+    font-weight: Bold;
+    height: 50px;
+    margin: 32px auto;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 24%;
+    }
+    .back-button:hover {
+    background-color: rgba(225,135,130,0.75);
+    color: #fff;
+    text-decoration: none;
+    }
+h3{
+        color: brown;
+        font-size: 25px;
+        text-align: center;
+    }
+*{
+    background-color: #feceab;
+}

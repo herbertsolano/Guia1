@@ -54,7 +54,7 @@ body {
 .submenu{
 	position: absolute;
 	background: #333333;
-	width: 120%;
+	width: 190%;
 	visibility: hidden;
 	opacity: 0;
 	transition: opacity 1.5s;
@@ -62,7 +62,7 @@ body {
 
 .submenu li a{
 	display: block;
-	padding: 15px;
+	padding: 10px;
 	color: #fff;
 	font-family: 'Open sans';
 	text-decoration: none;

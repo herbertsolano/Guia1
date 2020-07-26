@@ -1,0 +1,18 @@
+//Ejercicio #3: Encuesta que permite votar y seguir opinando sobre una pregunta.
+Cada vez que se emite la opinión se vuelve a preguntar si desea seguir votando.
+Mientras responda que si desea continuar, se le volverá a pedir la opinión, hasta
+que responda que ya no. En ese momento se emitirán los resultados. Se utiliza una
+técnica conocida como ciclo infinito para implementar la solución. 
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <title>Encuesta sobre ley antimaras</title>
+ <meta charset="utf-8" />
+ <link rel="stylesheet" href="css/encuesta.css" />
+ <link rel="stylesheet" href="css/zui-table.css" />
+</head>
+<body>
+<script src="js/encuesta.js"></script>
+</body>
+</html>

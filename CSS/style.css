@@ -22,7 +22,7 @@ body {
 /* MENU */
 
 .navegacion{
-	width: 80%;
+	width: 95%;
 	margin: 30px auto;
 	background: #000;
 }
@@ -38,7 +38,7 @@ body {
 
 .menu > li > a{
 	display: block;
-	padding: 15px 20px;
+	padding: 10px 20px;
 	color: #ffffff;
 	font-family: 'Open sans';
 	text-decoration: none;

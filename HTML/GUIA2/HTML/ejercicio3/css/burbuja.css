@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+}
+
+h1    {
+    background-color:LightBlue;
+    border:double 3px SlateBlue;
+    color:SteelBlue;
+    font-family:"Century Gothic";
+    font-size:2.5em;
+    font-weight:600;
+}
+td    {
+    background-color: darkgreen;
+    border:solid 2px rgb(109, 205, 90);
+    color:firebrick;
+    height:30px;
+    text-align:center;
+    font-family:"Lucida Sans";
+    font-size:1em;
+    font-weight:500;
+    width:25px;
+}
+
+.On    {
+    background-color:firebrick;
+    border-width:2px;
+    color: white;
+}
+
+.Off   {
+    background-color:firebrick;
+    border-width:2px;
+    color:white;
+}

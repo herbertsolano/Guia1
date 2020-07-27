@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+     height: 100%;
+}
+
+body {
+    background: #f3f3f3; 
+    font: Normal 16px 'Lato',Arial,Helvetica,"Liberation Sans";
+}
+
+header h1 {
+    color: #ebe9f9;
+    font: 600 4.2em 'Raleway',Tahoma,Helvetica,"Liberation Sans";
+    position: absolute;
+    text-align: center;
+    top: 2.5%;
+    width: 100%;
+}
+
+
+article p{
+  border: ridge 6px #e6e9b6;
+    color: #eaefb5;
+    font-family: 'Lato',Arial,Helvetica,"Liberation Sans";
+    font-size: 1em;
+    font-weight: 700;
+    margin: 12px auto;
+    padding: 16px 12px;
+    width: 78%;
+}
+h1{
+    color: #000;
+}
+p{
+    font-size: 30px;
+    line-height : 55px;
+}

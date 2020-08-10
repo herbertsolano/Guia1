@@ -1,0 +1,10 @@
+#botonTirar {
+background-color:#3bb3e0;
+font-family: 'Open Sans', sans-serif; fontsize:13px;
+font-weight:Bold; textdecoration:none; color:#fff;
+position:relative;
+padding:10px 20px; paddingright:50px; margin-bottom:
+30px;
+background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229)
+100%);
+}

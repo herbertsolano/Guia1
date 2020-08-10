@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+ <title>Eventos con JavaScript</title>
+ <meta charset="utf-8" />
+ <link rel="stylesheet" href="css/eventos.css" />
+ <script type="text/javascript" src="js/eventos.js"></script>
+</head>
+<body>
+ <header>
+ </header>
+ <section class="form-style-3">
+ <article>
+ <form action="javascript:void(0);" name="frmEjemplo">
+ <fieldset>
+ <legend>Uso de controles de formulario</legend>
+ <label for="txtfoco"><span>Haga clic:</span>
+ <input type="text" name="txtfoco" id="txtclick" placeholder="Haga clic aquí" class="formInputText" /></label>
+
+ <label for="txttecla"><span>Ingrese datos:</span>
+ <input type="text" name="txttecla" id="txtkey" placeholder="Ingrese un caracter" class="formInputText" /></label>
+ <label for="selopciones"><span>Seleccione: </span>
+ <select name="selopciones" id="seloptions" class="seloptions">
+ <option value="Primera opción">Primera opción</option>
+ <option value="Segunda opción">Segunda opción</option>
+ <option value="Tercera opción">Tercera opción</option>
+ </select></label>
+ <p><span>Marque una o varias casillas:</span></p>
+ <label>
+ <input type="checkbox" name="chkcasillas" id="chkbox1" value="Casilla 1°" class="squaredOne" />
+ <span>Casilla 1°</span><br />
+ <input type="checkbox" name="chkcasillas" id="chkbox2" value="Casilla 2°" class="squaredOne" />
+ <span>Casilla 2°</span><br />
+ <input type="checkbox" name="chkcasillas" id="chkbox3" value="Casilla 3°" class="squaredOne" />
+ <span>Casilla 3°</span>
+ </label>
+ <input type="button" name="submit" id="submitbutton" value="Materia" class="formInputButton" />
+ </fieldset>
+ </form>
+ </article>
+ </section>
+</body>
+</html>

@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	height: 100%;
+}
+body {
+	background: white;
+	font-size: 16px;
+}
+#buttonarea {
+	margin: 24px auto;
+	width: 56%;
+}
+ol {
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-o-border-radius: 12px;
+	-ms-border-radius: 12px;
+	border-radius: 12px;
+	list-style: none;
+	height: auto;
+	margin: 0 auto;
+	padding: 24px 48px;
+	width: 56%;
+}
+ol li {
+	display: inline-block;
+	margin-right: 16px;
+}
+img{
+	width: 75%;
+	height: 75%;
+}

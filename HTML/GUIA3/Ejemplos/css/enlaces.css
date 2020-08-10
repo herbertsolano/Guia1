@@ -1,0 +1,216 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Raleway:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,600,700);
+*, *:after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box; boxsizing: border-box;
+}
+html, body {
+	height: 100%;
+}
+body {
+	background: rgba(49,48,51,1);
+	background: -moz-linear-gradient(left, rgba(49,48,51,1) 0%, rgba(75,70,77,1) 50%,
+	rgba(43,41,39,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(49,48,51,1)),
+	color-stop(50%, rgba(75,70,77,1)), color-stop(100%, rgba(43,41,39,1)));
+	background: -webkit-linear-gradient(left, rgba(49,48,51,1) 0%, rgba(75,70,77,1) 50%,
+	rgba(43,41,39,1) 100%);
+	background: -o-linear-gradient(left, rgba(49,48,51,1) 0%, rgba(75,70,77,1) 50%,
+	rgba(43,41,39,1) 100%);
+	background: -ms-linear-gradient(left, rgba(49,48,51,1) 0%, rgba(75,70,77,1) 50%,
+	rgba(43,41,39,1) 100%);
+	background: linear-gradient(to right, rgba(49,48,51,1) 0%, rgba(75,70,77,1) 50%,
+	rgba(43,41,39,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#313033',
+	endColorstr='#2b2927', GradientType=1 );
+	font: 400 15px 'Raleway',sans-serif;
+}
+h1 {
+	color: hsl(163, 70%, 55%);
+	text-align: center;
+	font: Bold 3.2em 'Bitter';
+	text-transform: uppercase;
+	text-shadow: 2px 2px 0px #eee, 3px 3px 0px #707070;
+}
+h2 {
+	text-shadow: -1px -1px 0px rgba(255,255,255,0.3),
+	1px 1px 0px rgba(0,0,0,0.8);
+	color: #333;
+	opacity: 0.4; 
+	font: Bold 3em 'Bitter';
+}
+.color-1 {
+	background: #0e83cd;
+}
+.color-5 {
+	background: #cd4436;
+}
+.container > section {
+	margin: 0 auto;
+	padding: 1em 1em;
+	text-align: center;
+}
+nav a {
+	display: inline-block;
+	color: #fff;
+	font: normal, 1em, 'Raleway',Georgie,Times;
+	margin: 15px 25px;
+	position: relative; textdecoration: none; texttransform: uppercase;
+	letter-spacing: 1px;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+nav a:hover,
+nav a:focus {
+	outline: none;
+}
+.cl-effect-19 a {
+	line-height: 2em;
+	margin: 15px;
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+	text-align: center;
+	vertical-align: middle;
+	width: 210px;
+}
+.cl-effect-19 a span {
+	background: #e35041;
+	display: inline-block;
+	position: relative;
+	height: 88px; 
+	padding: 0 14px;
+	-webkit-transition: -webkit-transform 0.4s, background 0.4s;
+	-moz-transition: -moz-transform 0.4s, background 0.4s;
+	-o-transition: transform 0.4s, background 0.4s;
+	-ms-transition: transform 0.4s, background 0.4s;
+	transition: transform 0.4s, background 0.4s;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d; 
+	transformstyle: preserve-3d;
+	-webkit-transform-origin: 50% 50% -100px;
+	-moz-transform-origin: 50% 50% -100px;
+	-o-transform-origin: 50% 50% -100px;
+	-ms-transform-origin: 50% 50% -100px;
+	transform-origin: 50% 50% -100px;
+	width: 100%;
+}
+.csstransforms3d .cl-effect-19 a span::before {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	width: 100%;
+	height: 100%;
+	background: #b53a2d;
+	content: attr(data-hover);
+	-webkit-transition: background 0.4s;
+	-moz-transition: background 0.4s;
+	-o-transition: background 0.4s;
+	-ms-transition: background 0.4s;
+	transition: background 0.4s;
+	-webkit-transform: rotateY(90deg);
+	-moz-transform: rotateY(90deg);
+	-o-transform: rotateY(90deg);
+	-ms-transform: rotateY(90deg);
+	transform: rotateY(90deg);
+	-webkit-transform-origin: 0 50%;
+	-moz-transform-origin: 0 50%;
+	-o-transform-origin: 0 50%;
+	-ms-transform-origin: 0 50%;
+	transform-origin: 0 50%;
+	pointer-events: none;
+}
+.cl-effect-19 a:hover span,
+.cl-effect-19 a:focus span {
+	background: #b53a2d;
+	-webkit-transform: rotateY(-90deg);
+	-moz-transform: rotateY(-90deg);
+	-o-transform: rotateY(-90deg);
+	-ms-transform: rotateY(-90deg);
+	transform: rotateY(-90deg);
+}
+.csstransforms3d .cl-effect-19 a:hover span::before,
+.csstransforms3d .cl-effect-19 a:focus span::before {
+	background: #ef5e50;
+}
+
+.cl-effect-20 a {
+	line-height: 2em;
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+}
+.cl-effect-20 a span {
+	position: relative;
+	display: inline-block;
+	padding: 3px 15px 0;
+	background: #587285;
+	box-shadow: inset 0 3px #2f4351;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+	-o-transition: background 0.6s;
+	-ms-transition: background 0.6s;
+	transition: background 0.6s;
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	-o-transform-origin: 50% 0;
+	-ms-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform-origin: 0% 50%;
+	-moz-transform-origin: 0% 50%;
+	-o-transform-origin: 0% 50%;
+	-ms-transform-origin: 0% 50%;
+	transform-origin: 0% 50%;
+}
+.cl-effect-20 a span::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%; background:
+	#fff; color:
+	#2f4351; content:
+	attr(data-hover);
+	-webkit-transform: rotateX(270deg);
+	-moz-transform: rotateX(270deg);
+	-o-transform: rotateX(270deg);
+	-ms-transform: rotateX(270deg);
+	transform: rotateX(270deg);
+	-webkit-transition: -webkit-transform
+	-moz-transition: -moz-transform 0.6s;
+	-o-transition: transform 0.6s;
+	-ms-transition: transform 0.6s;
+	transition: transform 0.6s;
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	transform-origin: 0 0; pointerevents: none;
+	0.6s;
+}
+.cl-effect-20 a:hover span,
+.cl-effect-20 a:focus span {
+	background: #2f4351;
+}
+.cl-effect-20 a:hover span::before,
+.cl-effect-20 a:focus span::before {
+	-webkit-transform: rotateX(10deg);
+	-moz-transform: rotateX(10deg);
+	-o-transform: rotateX(10deg);
+	-ms-transform: rotateX(10deg);
+	transform: rotateX(10deg);
+}

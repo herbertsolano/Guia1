@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <title>Contador de palabras</title>
+ <meta charset="utf-8" />
+ <link rel="stylesheet" href="css/font.css" />
+ <link rel="stylesheet" href="css/formstyle.css" />
+ <link rel="stylesheet" href="../../../CSS/style.css">
+ <script src="js/wordcount.js"></script>
+ <!-- Para las versiones anteriores del IE9 -->
+ <!--[if lt IE 9]>
+ <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+ <![endif]-->
+</head>
+<body>
+    <header>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="../../../index.html">Inicio</a></li>
+                <li><a href="../index_guia4.html">Guia #4</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<header>
+ <h1>Contador de palabras</h1>
+</header>
+<section>
+<article id="formarea">
+<form name="frmpalabras">
+ <fieldset>
+ <label for="message">Mensaje:</label>
+ <textarea name="mensaje" id="message" placeholder="Ingrese un
+mensaje"></textarea><br />
+ <label for="count">Conteo:</label>
+ <input type="text" name="conteo" id="count" readonly="readonly" value="0" />
+ <label for="maximum">Máximo:</label>
+ <input type="text" name="maximo" id="maximum" value="140" readonly="readonly" />
+ </fieldset>
+</form>
+</article>
+</section>
+</body>
+</html>

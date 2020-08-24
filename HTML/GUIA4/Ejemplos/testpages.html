@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <title></title>
+ <meta charset="utf-8" />
+ <link rel="stylesheet" href="css/modernform.css" />
+ <script src="js/findclass.js"></script>
+ <link rel="stylesheet" href="../../../CSS/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="../../../index.html">Inicio</a></li>
+                <li><a href="../index_guia4.html">Guia #4</a></li>
+            </ul>
+        </nav>
+    </header>   
+<section>
+<article>
+<div class="samurai ninja">
+</div>
+<div class="ninja samurai">
+</div>
+<div></div>
+<span class="samurai ninja viking"></span><br />
+<div class="container">
+<section class="tabblue">
+ <ul class="tabs blue">
+ <li>
+ <input type="radio" name="tabs blue" id="tab1" checked="">
+ <label for="tab1">Recuento de clases</label>
+ <div id="tab-content1" class="tab-content">
+ <p>
+ Qué clase desea buscar en el documento.
+ </p>
+<form name="frmclass" id="classname">
+ <span class="tabaddon"><i class="fa fa-user fa-2x"></i></span>
+ <input type="text" name="txtname" id="txtname" list="tags"
+placeholder="(Ingrese una clase)" required class="field" />
+ <datalist id="tags">
+ <option value="ninja" class="field"></option>
+<option value="samurai" class="field"></option>
+<option value="viking" class="field"></option>
+ </datalist>
+<span class="tabaddon"><i class="fa fa-degree fa-2x"></i></span>
+ <select name="selelement" id="selelement" required>
+ <option disabled="" selected="">(Seleccione una etiqueta)</option>
+<option value="*">TODOS</option>
+<option value="div">DIV</option>
+<option value="span">SPAN</option>
+ </select>
+<div class="btn">
+ <input type="button" name="btnSend" id="btnSend" value="Encontrar"
+/>
+ </div>
+ </form>
+</div>
+</li>
+</ul>
+</section>
+</div>
+</article>
+</section>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <title>Validador de datos</title>
+ <meta charset="utf-8" />
+ <link rel="stylesheet" href="css/fonts.css" />
+ <link rel="stylesheet" href="../../../CSS/style.css">
+ <link rel="stylesheet" href="css/formstyle.css" />
+ <script src="js/validatedata.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="../../../index.html">Inicio</a></li>
+                <li><a href="../index_guia4.html">Guia #4</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<div class="wrapper">
+<form action="javascript:void(0)" name="frmdatos" id="dataform">
+ <h2 class="contact">Validador de datos</h2>
+ <span class="contact">
+ <label for="tipo">Seleccione el tipo de dato:</label>&nbsp;&nbsp;
+ </span>
+ <select name="seltipo" id="tipo">
+ <option value="dui" selected>DUI</option>
+ <option value="nit">NIT</option>
+ <option value="tarjeta">Tarjeta de crédito</option>
+ <option value="carnet">Carnet UDB</option>
+ <option value="telefono">Teléfono</option>
+ </select>
+ <span class="contact">
+ <label for="txtdato">Dato:</label>&nbsp;&nbsp;
+ </span>
+ <input type="text" name="txtdato" id="data" value="" maxlength="20"
+placeholder="(Ingrese el dato)" /><br />
+ <input type="button" name="btnvalidar" id="validar" value="Validar" />
+</form>
+</div>
+</body>
+</html>

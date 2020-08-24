@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <title>Validador de archivos</title>
+ <meta charset="utf-8" />
+ <link rel="stylesheet" href="../../../CSS/style.css">
+ <link rel="stylesheet" href="css/search.css" />
+ <link rel="stylesheet" href="css/button.css" />
+ <script src="js/setvalue.js"></script>
+ <!-- Para las versiones anteriores del IE9 -->
+ <!--[if lt IE 9]>
+ <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+ <![endif]-->
+</head>
+<body>
+    <header>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="../../../index.html">Inicio</a></li>
+                <li><a href="../index_guia4.html">Guia #4</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<header>
+ <h1>Validador de tipos de archivos</h1>
+</header>
+<section>
+    <article>
+        <div id="wrap">
+        <form name="frmfile" method="POST" action="javascript:void(0);">
+         <!-- Campo ficticio en el que se mostrará la ruta (path) del archivo -->
+         <input type="text" name="urlarchivo" id="url-archivo" />
+         <!-- label para simular el botón "seleccionar archivo" -->
+         <label class="cargar">Buscar</label>
+         <!-- Campo input type=file original -->
+         <input type="file" name="archivo" accept="image/*" id="archivo" /><br
+        style="clear:both;" /><br /><br />
+         <input type="button" name="subir" id="upload" value="Subir" class="bluebutton" />
+        </form>
+        </div><!--/ wrap -->
+        </article>
+        </section>
+        </body>
+        </html>
